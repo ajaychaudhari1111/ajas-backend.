@@ -14,7 +14,7 @@ const io = new Server(server, {
 });
 
 // ૧. MongoDB કનેક્શન (Render ના Environment Variable માંથી આવશે)
-const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://chaudhreeajay_db_user:PASSWORD@cluster0.n6ychpj.mongodb.net/?appName=Cluster0";
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://chaudhreeajay_db_user:royal5123@cluster0.n6ychpj.mongodb.net/?appName=Cluster0";
 
 mongoose.connect(MONGO_URI)
   .then(() => console.log("MongoDB સાથે કનેક્શન સફળ થયું!"))
